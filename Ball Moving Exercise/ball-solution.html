@@ -1,0 +1,91 @@
+    <div id="ball" style="
+     z-index: 2;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width: 100px;
+     height: 100px;
+     border-radius: 0%;
+     background: lightskyblue">
+    </div>
+ <script> 
+var velocity = 100;
+var xreverse = false;
+var yreverse = false;     
+var ball = document.getElementById('ball');
+var positionX = 0; 
+var positionY = 0;
+
+function moveBall() {
+
+  var Xmin = 0;
+  var Xmax = 1000;
+
+  var Ymin = 0;
+  var Ymax = 1000;
+
+  if (xreverse) {
+    positionX = positionX + velocity;
+    ball.style.left = positionX + "px";
+  } else {
+    positionX = positionX - velocity;
+    ball.style.left = positionX + "px";
+
+  }
+   if (
+    positionX > Xmax ||
+    positionX === Xmin ||
+    positionY > Ymax ||
+    positionY === Ymin
+  ) {
+    xreverse = !xreverse;
+  }
+}
+
+setInterval(moveBall, 3);
+</script>
+
+<div id="ball2" style="
+     z-index: 5;
+     position: absolute;
+     left: 50px;
+     top: 50px;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     background: orange">
+    </div>
+<script>
+    var velocity = 1
+    var xreverse = false; 
+    var yreverse = false; 
+    var ball2 = document.getElementById('ball2');
+    var positionX = 100; 
+    var positionY = 100; 
+    function moveBall2() {
+        var Xmin = 25; 
+        var Xmax = 500;
+        var Ymin = 25; 
+        var Ymax = 250; 
+    if (xreverse){
+        positionX = positionY + velocity; 
+        positionX = positionY + velocity; 
+        ball2.style.left = positionX + "px";
+        ball2.style.top = positionY + "px";
+    } else { 
+        positionX = positionY - velocity;
+        positionY = positionX - velocity; 
+        ball2.style.left = positionX + "px";
+        ball2.style.top = positionY + "px";
+    } if (
+    positionX > Xmax ||
+    positionX === Xmin ||
+    positionY > Ymax ||
+    positionY === Ymin
+  ) {
+    xreverse = !xreverse;
+  
+  }
+}
+setInterval (moveBall2, 100);
+</script>
