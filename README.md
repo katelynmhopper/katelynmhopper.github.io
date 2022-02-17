@@ -1,5 +1,5 @@
 # katelynmhopper.github.io
-<h1> Pac Man Project </h1>
+<h1> Katelyn's Portfolio </h1>
 
 <h2> Description </h2> 
 
