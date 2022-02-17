@@ -1,0 +1,39 @@
+<div id="container">
+  <!-- populated by JS-->
+</div>
+<script src="./boston.js"></script>
+<script>
+  function renderTopSalaries(boston, container) {
+    var person = boston.data
+    var topSalaries = person.sort((a, b) => b[11] - a[11]).slice(0,5);
+    var len = topSalaries.length;
+    var html = '';
+    for (let i = 0; i < len; i++) {
+      html += '<li class="boston">' +
+        '<h2>' + person[i][8] + '</h2>' +
+        '<h3>' + person[i][11] + '</h3>'
+    }
+    container.innerHTML = '<ul id = "topSalaries">' + html + '</ul>';
+  }
+  
+
+  function renderTopEmployees(boston, container) {
+    var person = boston.data; 
+    var topEmployees = person.filter((a) => a[11] > 200000);
+    var len = topEmployees.length; 
+    var html = '';
+    for (let i = 0; i < len; i++) {
+      html += 
+        '<li class="top">' +
+        '<h2>' + 
+        topEmployees[i][8] +
+        '</h2>' +
+        '<h2>' +
+        topEmployees[i][11] +
+        '</h3>';   
+  }
+  container.innerHTML += '<ul id = "topEmployees">' + html + '</ul>';
+}
+  renderTopSalaries(boston, document.getElementById('container'));
+  renderTopEmployees(boston, document.getElementById('container'));
+</script>
