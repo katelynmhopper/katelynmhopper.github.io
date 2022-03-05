@@ -3,6 +3,6 @@
 
 <h2> This is a portfolio of my coursework during the MIT Professional Certificate in Coding </h2> 
 
-<img source = "![image](https://user-images.githubusercontent.com/52614015/156900028-29006391-edde-45b2-8663-85afdd4b7a63.png)" width='300'/>
+<img source = "E57D69E7-166D-4D08-B8FE-9DCBEC1B9027_1_201_a.jpg" width='300'/>
 
   
