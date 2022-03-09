@@ -1,8 +1,8 @@
 # katelynmhopper.github.io
-<h1> Katelyn's Portfolio </h1>
+# Katelyn's Portfolio
 
-<h2> This is a portfolio of my coursework during the MIT Professional Certificate in Coding </h2> 
-
+## My Eyes Repo
+<a href="https://github.com/katelynmhopper/Eyes"> Eyes Exercise </a>
 
   
   
