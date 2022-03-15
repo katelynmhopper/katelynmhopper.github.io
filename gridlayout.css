@@ -1,15 +1,11 @@
-        .content{
+  .content{
             display: grid; 
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 3, 100px;
+            grid-template-rows: 6, 50px;
         }
         div{
             padding: 50px; 
             text-align: center; 
-            background-color: aqua;
-        } 
-        div:nth-of-type(odd) {
-            background-color: white;
         } 
         .one{
             grid-column: 1 / 3;
@@ -17,14 +13,13 @@
         }
         .two{
             grid-column: 1 / 2;
-            grid-row: 2 / 3; 
+            grid-row: 2 / 6; 
         }
         .three{
             grid-column: 2 / 3;
-            grid-row: 2 / 3;
+            grid-row: 2 / 6;
         }
         .four{
             grid-column: 3 / 3;
-            grid-row: 2 / 3;
+            grid-row: 2 / 6;
         }
-    
