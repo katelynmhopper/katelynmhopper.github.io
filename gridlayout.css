@@ -6,6 +6,7 @@
         div{
             padding: 50px; 
             text-align: center; 
+            background-color: black; 
         } 
         .one{
             grid-column: 1 / 3;
