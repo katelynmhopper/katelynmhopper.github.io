@@ -1,7 +1,7 @@
     .content{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 50px 6fr;
 } 
 .one{
     grid-column: 1 / 4;
