@@ -7,6 +7,7 @@
 ## My Eyes Repo
 <a href="https://github.com/katelynmhopper/Eyes"> Eyes Exercise </a>
 
-  
+## Real Time Bus Tracker
+<a href="https://katelynmhopper.github.io/Real-Time-Bus-Tracker"> Bus Tracker Exercise </a>
   
 
