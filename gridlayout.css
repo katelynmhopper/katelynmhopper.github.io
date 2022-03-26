@@ -1,7 +1,12 @@
-a{
+/* unvisited link */
+a:link {
   color: MediumSpringGreen;
 }
 
+/* visited link */
+a:visited {
+  color: Coral;
+}
 .content{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
