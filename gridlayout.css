@@ -1,30 +1,85 @@
 /* unvisited link */
 a:link {
-  color: MediumSpringGreen;
-}
-
-/* visited link */
-a:visited {
-  color: Coral;
-}
-.content{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 6fr;
-} 
-.one{
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;   
-}
-.two{
-    grid-column: 1 / 4;
-    grid-row: 2 / 3; 
-}
-.three{
+    color: MediumSpringGreen;
+    font-size: 20px; 
+    padding-right: 20px;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: Coral;
+    font-size: 20px;
+  }
+  .content{
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 50px 3fr 1fr 2fr;
+      gap: 40px; 
+      padding: 20px; 
+  } 
+  .one{
+      grid-column: 1 / 4;
+      grid-row: 1 / 2;   
+  }
+  .two{
+      grid-column: 1 / 2;
+      grid-row: 2 / 3; 
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-align: center;
+      
+  }
+  .three{
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-align: center;
+  }
+  .four{
+      grid-column: 3 / 4;
+      grid-row: 2 / 3;
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-align: center;
+  }
+  .five{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    text-align: center;
+  }
+   .six{
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-.four{
+    grid-row: 3 / 4;
+    text-align: center;
+ }
+    .seven{
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
-}
+    grid-row: 3 / 4;
+    text-align: center;
+ }
+    .eight{
+        grid-column: 1 / 2;
+        grid-row: 4 / 4;
+        border-style: solid;
+        border-radius: 25px;
+        padding: 20px;
+        background-color: AliceBlue;
+    }
+    .nine{
+        grid-column: 2 / 3;
+        grid-row: 4 / 4;
+        border-style: solid;
+        border-radius: 25px;
+        padding: 20px;
+        background-color: AliceBlue;
+        
+ }
+    .ten{
+        grid-column: 3 / 4;
+        grid-row: 4 / 4;
+        border-style: solid;
+        border-radius: 25px;
+        padding: 20px;
+        background-color: AliceBlue;
+ }
