@@ -1,0 +1,62 @@
+a:link {
+  color: Teal;
+}
+.content{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px 1fr 200px .75fr;
+  gap: 20px; 
+  padding: 20px; 
+} 
+.one{
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;   
+  font-size: 1.5em; 
+}
+.title{
+  grid-column: 1 / 5; 
+  grid-row: 2 / 3;
+  text-align: center;
+  text-decoration: underline solid teal;
+}
+.two{
+  grid-column: 1 / 2;
+  grid-row: 3 / 4; 
+}
+.three{
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+}
+.four{
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+.five{
+grid-column: 1 / 5;
+grid-row: 4 / 5;
+border-style: solid;
+border-radius: 25px;
+padding: 20px;
+background-color: teal;
+}
+.six{
+grid-column: 1 / 3;
+grid-row: 5 / 6;
+color: teal; 
+text-decoration-line: underline;
+text-decoration-style: solid;
+font-size: 1.3em;
+border-style: solid;
+border-radius: 25px;
+padding: 20px; 
+}
+.seven{
+grid-column: 3 / 5;
+grid-row: 5 / 6;
+font-size: 1.3em;
+border-color: teal;
+border-style: solid;
+border-radius: 25px;
+padding: 20px; 
+}
+
