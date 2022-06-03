@@ -14,38 +14,37 @@ a:link {
       display: grid; 
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 50px 3fr .5fr 2fr;
-      gap: 40px; 
-      padding: 20px; 
+
   } 
   .one{
       grid-column: 1 / 4;
       grid-row: 1 / 2;   
   }
   .two{
-      grid-column: 1 / 2;
-      grid-row: 2 / 3; 
-      text-decoration-line: underline;
-      text-decoration-style: solid;
-      text-align: center;
-      padding-top : 20px;
-      
-  }
-  .three{
-      grid-column: 2 / 3;
-      grid-row: 2 / 3;
-      text-decoration-line: underline;
-      text-decoration-style: solid;
-      text-align: center;
-      padding-top : 20px;
-  }
-  .four{
-      grid-column: 3 / 4;
-      grid-row: 2 / 3;
-      text-decoration-line: underline;
-      text-decoration-style: solid;
-      text-align: center;
-      padding-top : 20px;
-  }
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; 
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-align: center;
+    padding-top : 20px;
+    
+}
+.three{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-align: center;
+    padding-top : 20px;
+}
+.four{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-align: center;
+    padding-top : 20px;
+}
   .five{
     grid-column: 1 / 2;
     grid-row: 3 / 4;
@@ -70,6 +69,7 @@ a:link {
         border-radius: 25px;
         padding: 20px;
         background-color: AliceBlue;
+        margin-right: 5%;
     }
     .nine{
         grid-column: 2 / 3;
@@ -78,6 +78,7 @@ a:link {
         border-radius: 25px;
         padding: 20px;
         background-color: AliceBlue;
+        margin-right: 5%;
         
  }
     .ten{
@@ -87,4 +88,5 @@ a:link {
         border-radius: 25px;
         padding: 20px;
         background-color: AliceBlue;
+        margin-right: 5%;
  }

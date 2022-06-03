@@ -4,9 +4,9 @@ a:link {
 .content{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px 50px 1fr 200px .75fr;
-  gap: 20px; 
-  padding: 20px; 
+  grid-template-rows: 20px 20px 1fr 200px .75fr;
+  gap: 10px; 
+  padding: 10px; 
 } 
 .one{
   grid-column: 1 / 5;
@@ -18,6 +18,7 @@ a:link {
   grid-row: 2 / 3;
   text-align: center;
   text-decoration: underline solid teal;
+  padding-top: 3%;
 }
 .two{
   grid-column: 1 / 2;
@@ -48,6 +49,8 @@ font-size: 1.3em;
 border-style: solid;
 border-radius: 25px;
 padding: 20px; 
+margin-top: 5%;
+margin-right: 5%;
 }
 .seven{
 grid-column: 3 / 5;
@@ -57,4 +60,6 @@ border-color: teal;
 border-style: solid;
 border-radius: 25px;
 padding: 20px; 
+margin-top: 5%;
+margin-right: 5%;
 }
