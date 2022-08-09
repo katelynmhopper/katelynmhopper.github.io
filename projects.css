@@ -1,0 +1,105 @@
+a:link {
+    color: black;
+    font-size: 18px; 
+    
+  }
+a:link.cart{
+    color: black; 
+    font-size: 25px;
+}
+a:link.bad{
+    color: black; 
+    font-size: 25px;
+}
+a:link.bus{
+    color: black; 
+    font-size: 25px;
+}
+a:link.man{
+    color: black; 
+    font-size: 25px;
+}
+  /* visited link */
+  a:visited.cart {
+    color: mediumspringgreen;
+    font-size: 25px;
+  }
+  a:visited.bad {
+    color: mediumspringgreen;
+    font-size: 25px;
+  }
+  a:visited.bus {
+    color: mediumspringgreen;
+    font-size: 25px;
+  }
+  a:visited.man {
+    color: mediumspringgreen;
+    font-size: 25px;
+  }
+.content{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.2fr 1.2fr 1fr 1fr 1fr;
+    margin: 0; 
+    background-color: slategrey;
+    text-align: center;
+}
+.Shopping{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 2%
+}
+.Bank{
+    grid-column: 2/3;
+    grid-row: 2/3; 
+    padding: 2%
+}
+.BankImg{
+    grid-column: 1/2; 
+    grid-row: 2/3;
+    padding: 2%
+}
+.Ground{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 2%
+}
+.Bus{
+    grid-column: 2/3; 
+    grid-row: 4/5; 
+    padding: 2%
+}
+.TrackerImg{
+    grid-column: 1/2; 
+    grid-row: 4/5; 
+    padding: 2%
+}
+.PacMan{
+    grid-column: 1/2; 
+    grid-row: 5/6; 
+    padding: 2%
+}
+.PImg{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    padding: 2%
+}
+.contact{
+    grid-column: 1/5;
+    grid-row: 3/3;
+    text-align: center;
+    padding: 5%;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+    padding: 5px;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+.social-icons a:hover .fa
+{
+    transform: translateY(-10px);
+}
