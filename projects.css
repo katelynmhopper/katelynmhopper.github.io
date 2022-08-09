@@ -49,6 +49,11 @@ a:link.man{
     grid-row: 1/2;
     padding: 2%
 }
+.cartimg{
+    grid-column: 2/3; 
+    grid-row: 1/2;
+    padding: 2%
+}
 .Bank{
     grid-column: 2/3;
     grid-row: 2/3; 
@@ -63,6 +68,11 @@ a:link.man{
     grid-column: 1/2;
     grid-row: 3/4;
     padding: 2%
+}
+.fly{
+    grid-column: 2/3; 
+    grid-row: 3/4;
+    padding-bottom: 2%;
 }
 .Bus{
     grid-column: 2/3; 
