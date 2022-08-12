@@ -41,9 +41,8 @@
               Dropdown
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarProjects">
-              <li><a class="dropdown-item" href="https://github.com/katelynmhopper?tab=repositories">All Repos</a></li>
               <li><a class="dropdown-item" href="Resume -Katelyn Hopper.pdf" >Resume</a></li>
-              <li><a class="dropdown-item" href="https://github.com/katelynmhopper/Real-Time-Bus-Tracker">Bus Tracker</a></li>
+              <li><a class="dropdown-item" href="#/bio">Bio</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="https://github.com/katelynmhopper?tab=repositories">All Repos</a></li>
           </ul>
@@ -57,6 +56,7 @@
 <div class="container" style="margin-top: 5px">
     <a href="#/home" class="text-primary"></a>
     <a href="#/projects" class="text-primary"></a>  
+    <a href="#/bio" class="text-primary"
     <div id="content"></div>
   </div>
 
@@ -75,6 +75,7 @@
         '/':         'home.html',
         '#/home':    'home.html',                        
         '#/projects': 'projects.html',
+        '#/bio':      'bio.html'
     };
     async function router(){
         //console.log(location.hash);
