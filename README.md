@@ -1,13 +1,3 @@
 # katelynmhopper.github.io
-# Katelyn's Portfolio
-
-## PacMen Repo
-<a href="https://github.com/katelynmhopper/PacMan"> PacMen Exercise </a>
-
-## My Eyes Repo
-<a href="https://github.com/katelynmhopper/Eyes"> Eyes Exercise </a>
-
-## Real Time Bus Tracker
-<a href="https://katelynmhopper.github.io/Real-Time-Bus-Tracker"> Bus Tracker Exercise </a>
-  
-
+# Welcome to my portfolio you can navigate to https://katelynmhopper.github.io/ to see the page up and running or go through the repo to see the code. To run this on your local machine clone the repo, run npm install and then run npm http-server. 
+## In my portfolio there are several projects that I have been working on. You can see them through my portfolio or clone them from the repos to your local machine to try out.
