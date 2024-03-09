@@ -7,11 +7,15 @@ a:link.cart{
     color: black; 
     font-size: 25px;
 }
+a:link.cgm {
+    color: black;
+    font-size: 25px;
+}
 a:link.bad{
     color: black; 
     font-size: 25px;
 }
-a:link.bus{
+a:link.ground{
     color: black; 
     font-size: 25px;
 }
@@ -24,11 +28,15 @@ a:link.man{
     color: mediumspringgreen;
     font-size: 25px;
   }
+  a:visited.cgm{
+    color: mediumspringgreen;
+    font-size: 25px;
+  }
   a:visited.bad {
     color: mediumspringgreen;
     font-size: 25px;
   }
-  a:visited.bus {
+  a:visited.ground {
     color: mediumspringgreen;
     font-size: 25px;
   }
@@ -44,42 +52,43 @@ a:link.man{
     background-color: slategrey;
     text-align: center;
 }
-.Shopping{
+.Nightscout{
     grid-column: 1/2;
     grid-row: 1/2;
     padding: 2%
 }
-.cartimg{
+.deximg{
     grid-column: 2/3; 
     grid-row: 1/2;
-    padding: 2%
+    padding: 2%;
+    margin-top: 2%;
 }
-.Bank{
+.Shopping{
     grid-column: 2/3;
     grid-row: 2/3; 
     padding: 2%
 }
-.BankImg{
+.cartimg{
     grid-column: 1/2; 
     grid-row: 2/3;
     padding: 2%
 }
-.Ground{
+.Bank{
     grid-column: 1/2;
     grid-row: 3/4;
     padding: 2%
 }
-.fly{
+.BankImg{
     grid-column: 2/3; 
     grid-row: 3/4;
     padding-bottom: 2%;
 }
-.Bus{
+.Ground{
     grid-column: 2/3; 
     grid-row: 4/5; 
     padding: 2%
 }
-.TrackerImg{
+.fly{
     grid-column: 1/2; 
     grid-row: 4/5; 
     padding: 2%
